@@ -7,3 +7,5 @@ Haskell implementations of the interpreters from [Essentials of Programming Lang
 Each subdirectory of `/src` contains a `Language.hs` implementation file which defines the language, any associated data types, and a corresponding `interpret` function.
 
 The language data types are typically `Expr` -- just a raw AST (without a parser).
+
+I've tried to follow the interfaces defined by Friedman et al. as closely as possible.
